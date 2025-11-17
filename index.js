@@ -10,29 +10,29 @@ let data = [];
 
 if (subject === "BT-101") {
     data = [
-        { id: 1, data: "Unit 1 Notes.pdf", pdflink:"pdf/BT-101 Unit-1.pdf", pyq: "coming soon", ref: "Education Point", reflink: "https://www.youtube.com/playlist?list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN" },
-        { id: 2, data: "Unit 2 Notes.pdf", pdflink:"pdf/BT-101 Unit-2.pdf", pyq: "coming soon", ref: "Education Point", reflink: "https://www.youtube.com/playlist?list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN" }
+        { id: 1, data: "Unit 1 Notes.pdf", pdflink:"BT-101 Unit-1.pdf", pyq: "coming soon", ref: "Education Point", reflink: "https://www.youtube.com/playlist?list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN" },
+        { id: 2, data: "Unit 2 Notes.pdf", pdflink:"BT-101 Unit-2.pdf", pyq: "coming soon", ref: "Education Point", reflink: "https://www.youtube.com/playlist?list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN" }
     ];
 } else if (subject === "BT-102") {
     data = [
-        { id: 1, data: "Unit 1 Notes.pdf", pdflink:"pdf/BT-102 Unit-1.pdf", pyq: "coming soon", ref: "Your collage or notes", reflink: "#" },
-        { id: 2, data: "Unit 2 Notes.pdf", pdflink:"pdf/BT-102 Unit-2.pdf", pyq:"coming soon", ref: "Your collage or notes", reflink: "#" }
+        { id: 1, data: "Unit 1 Notes.pdf", pdflink:"BT-102 Unit-1.pdf", pyq: "coming soon", ref: "Your collage or notes", reflink: "#" },
+        { id: 2, data: "Unit 2 Notes.pdf", pdflink:"BT-102 Unit-2.pdf", pyq:"coming soon", ref: "Your collage or notes", reflink: "#" }
     ];
 } else if (subject === "BT-103") {
     data = [
-        { id: 1, data: "Unit 2 Notes.pdf", pdflink:"pdf/BT-103 Unit-2.pdf", pyq: "coming soon", ref: "Your collage or notes", reflink: "#" },
-        { id: 2, data: "Unit 3 Notes.pdf", pdflink:"pdf/BT-103 Unit-3.pdf", pyq:"coming soon", ref: "Your collage or notes", reflink: "#" },
-        { id: 3, data: "Unit 4 Notes.pdf", pdflink:"pdf/BT-103 Unit-4.pdf", pyq:"coming soon", ref: "Your collage or notes", reflink: "#" },
+        { id: 1, data: "Unit 2 Notes.pdf", pdflink:"BT-103 Unit-2.pdf", pyq: "coming soon", ref: "Your collage or notes", reflink: "#" },
+        { id: 2, data: "Unit 3 Notes.pdf", pdflink:"BT-103 Unit-3.pdf", pyq:"coming soon", ref: "Your collage or notes", reflink: "#" },
+        { id: 3, data: "Unit 4 Notes.pdf", pdflink:"BT-103 Unit-4.pdf", pyq:"coming soon", ref: "Your collage or notes", reflink: "#" },
     ];
 } else if (subject === "BT-104") {
     data = [
-        { id: 1, data: "Unit 1 Notes.pdf", pdflink:"pdf/BT-104 Unit-1.pdf", pyq: "coming soon", ref: "Your collage or notes", reflink: "#" },
-        { id: 2, data: "Unit 2 Notes.pdf", pdflink:"pdf/BT-104 Unit-2.pdf", pyq:"coming soon", ref: "Your collage or notes", reflink: "#" }
+        { id: 1, data: "Unit 1 Notes.pdf", pdflink:"BT-104 Unit-1.pdf", pyq: "coming soon", ref: "Your collage or notes", reflink: "#" },
+        { id: 2, data: "Unit 2 Notes.pdf", pdflink:"BT-104 Unit-2.pdf", pyq:"coming soon", ref: "Your collage or notes", reflink: "#" }
     ];
 } else if (subject === "BT-105") {
     data = [
-        { id: 1, data: "SCALES", pdflink:"pdf/BT-105 SCALES.pdf", pyq: "coming soon", ref: "By Haider Sir", reflink: "https://www.youtube.com/watch?v=940oumABQ8k" },
-        { id: 2, data: "CONIC SECTION", pdflink:"pdf/BT-105 CONIC SECTION.pdf", pyq:"coming soon", ref: "By Haider Sir", reflink: "https://www.youtube.com/playlist?list=PLqjKM28q0ywDi49l3_68v_35LK9DZmaX2" }
+        { id: 1, data: "SCALES", pdflink:"BT-105 SCALES.pdf", pyq: "coming soon", ref: "By Haider Sir", reflink: "https://www.youtube.com/watch?v=940oumABQ8k" },
+        { id: 2, data: "CONIC SECTION", pdflink:"BT-105 CONIC SECTION.pdf", pyq:"coming soon", ref: "By Haider Sir", reflink: "https://www.youtube.com/playlist?list=PLqjKM28q0ywDi49l3_68v_35LK9DZmaX2" }
     ];
 }
 
