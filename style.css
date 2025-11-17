@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background: #000000d1;
+  min-height: 100vh;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* TABLE WRAPPER ANIMATION */
+table{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 23px;
+    color: rgb(255, 170, 0);
+    border: 3px solid rgb(255, 157, 0);
+    box-shadow: 0 0 20px rgba(255,170,0,0.3);
+    animation: fadeIn 0.7s ease;
+}
+
+/* TABLE HEADING */
+th{
+    background: rgba(255, 170, 0, 0.9);
+    color: black;
+    padding: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    border: 3px solid rgb(255, 157, 0);
+}
+
+/* TABLE CELLS */
+td{
+    padding: 20px;
+    text-align: center;
+    color: rgba(255, 170, 0, 0.85);
+    border: 3px solid rgb(255, 157, 0);
+    transition: 0.3s ease;
+}
+
+/* ROW HOVER EFFECT */
+tr:hover td{
+    background: rgba(255, 170, 0, 0.15);
+    color: rgb(255, 170, 0);
+    transform: scale(1.01);
+}
+.notes-data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* LINK STYLE */
+.link{
+    text-decoration: none;
+    color: rgba(255, 170, 0, 0.9);
+    transition: 0.3s ease;
+}
+
+.link:hover{
+    color: white;
+    text-shadow: 0 0 8px rgb(255,170,0);
+}
+
+/* DOWNLOAD BUTTON */
+.download button{
+    background-color: rgb(255, 170, 0);
+    border: none;
+    outline: none;
+    font-size: 20px;
+    height: 38px;
+    width: 38px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.download button:hover{
+    background: white;
+    color: rgb(255,170,0);
+    box-shadow: 0 0 15px rgb(255,170,0);
+    transform: scale(1.1);
+}
+
+/* FADE-IN ANIMATION */
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* ------------------------------
+   RESPONSIVE DESIGN — NO DATA LOSS
+--------------------------------*/
+
+/* 📱 MOBILE (max-width: 600px) */
+@media (max-width: 600px){
+
+    table{
+        width: 100%;
+        font-size: 14px;
+        border-width: 2px;
+    }
+
+    th, td{
+        padding: 10px;
+        border-width: 2px;
+        white-space: normal;      /* text wrap hoga */
+        word-wrap: break-word;    /* long text cut nahi hoga */
+    }
+
+    .notes-data{
+        flex-direction: column;
+        gap: 6px;
+        align-items: start;
+    }
+
+    .download button{
+        height: 30px;
+        width: 30px;
+        font-size: 15px;
+    }
+}
+
+
+/* 📲 TABLET (601px – 900px) */
+@media (min-width: 601px) and (max-width: 900px){
+
+    table{
+        width: 100%;
+        font-size: 18px;
+        border-width: 3px;
+    }
+
+    th, td{
+        padding: 14px;
+        white-space: normal;
+        word-wrap: break-word;
+    }
+
+    .download button{
+        height: 34px;
+        width: 34px;
+        font-size: 18px;
+    }
+}
+
+
+/* 🖥 DESKTOP (900px+) */
+@media (min-width: 901px){
+    table{
+        font-size: 23px;
+    }
+
+    th, td{
+        padding: 20px;
+    }
+}

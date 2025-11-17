@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="shortcut icon" href="assests\favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <nav>
+    <h1>Btech Notes</h1>
+  </nav>
+  <div class="container">
+    <h1 class="chead">Subjects:</h1>
+    <div class="subjects">
+  <div class="subject subject1" onclick="openSubject('BT-101')">BT-101</div>
+<div class="subject subject2" onclick="openSubject('BT-102')">BT-102</div>
+<div class="subject subject3" onclick="openSubject('BT-103')">BT-103</div>
+<div class="subject subject4" onclick="openSubject('BT-104')">BT-104</div>
+<div class="subject subject5" onclick="openSubject('BT-105')">BT-105</div>
+
+    </div>
+  </div>
+  <script>
+function openSubject(subName) {
+    // subject ka naam URL me bhej do
+    window.location.href = "second.html?subject=" + encodeURIComponent(subName);
+}
+</script>
+
+</body>
+
+</html>
