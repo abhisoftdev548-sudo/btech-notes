@@ -12,10 +12,10 @@ if (subject === "BT-101") {
     data = [
         { id: 1, data: "Unit 1 Notes.pdf", pdflink:"BT-101 Unit-1.pdf", pyq: "coming soon", ref: "Education Point", reflink: "https://www.youtube.com/playlist?list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN" },
         { id: 2, data: "Unit 2 Notes.pdf", pdflink:"BT-101 Unit-2.pdf", pyq: "coming soon", ref: "Education Point", reflink: "https://www.youtube.com/playlist?list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN" },
-        { id: 3, data: "Unit 3 Notes.pdf", pdflink:"BT-101 Unit-3.pdf", pyq: "coming soon", ref: "Education Point", reflink: "https://www.youtube.com/playlist?list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN" },
-        { id: 4, data: "Unit 4 Notes.pdf", pdflink:"BT-101 Unit-4.pdf", pyq: "coming soon", ref: "Education Point", reflink: "https://www.youtube.com/playlist?list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN" },
-        { id: 5, data: "Unit 5 Notes.pdf", pdflink:"BT-101 Unit-5.pdf", pyq: "coming soon", ref: "Education Point", reflink: "https://www.youtube.com/playlist?list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN" },
-        { id: 6, data: "Unit 6 Notes.pdf", pdflink:"BT-101 Unit-6.pdf", pyq: "coming soon", ref: "No Refference Avaliable", reflink: "#" },
+        { id: 3, data: "UNIT 3 Notes.pdf", pdflink:"BT-101 Unit-3.pdf", pyq: "coming soon", ref: "Education Point", reflink: "https://www.youtube.com/playlist?list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN" },
+        { id: 4, data: "UNIT 4 Notes.pdf", pdflink:"BT-101 Unit-4.pdf", pyq: "coming soon", ref: "Education Point", reflink: "https://www.youtube.com/playlist?list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN" },
+        { id: 5, data: "UNIT 5 Notes.pdf", pdflink:"BT-101 Unit-5.pdf", pyq: "coming soon", ref: "Education Point", reflink: "https://www.youtube.com/playlist?list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN" },
+        { id: 6, data: "UNIT 6 Notes.pdf", pdflink:"BT-101 Unit-6.pdf", pyq: "coming soon", ref: "No Refference Avaliable", reflink: "#" },
     ];
 } else if (subject === "BT-102") {
     data = [
