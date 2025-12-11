@@ -11,7 +11,11 @@ let data = [];
 if (subject === "BT-101") {
     data = [
         { id: 1, data: "Unit 1 Notes.pdf", pdflink:"BT-101 Unit-1.pdf", pyq: "coming soon", ref: "Education Point", reflink: "https://www.youtube.com/playlist?list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN" },
-        { id: 2, data: "Unit 2 Notes.pdf", pdflink:"BT-101 Unit-2.pdf", pyq: "coming soon", ref: "Education Point", reflink: "https://www.youtube.com/playlist?list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN" }
+        { id: 2, data: "Unit 2 Notes.pdf", pdflink:"BT-101 Unit-2.pdf", pyq: "coming soon", ref: "Education Point", reflink: "https://www.youtube.com/playlist?list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN" },
+        { id: 3, data: "Unit 3 Notes.pdf", pdflink:"BT-101 Unit-3.pdf", pyq: "coming soon", ref: "Education Point", reflink: "https://www.youtube.com/playlist?list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN" },
+        { id: 4, data: "Unit 4 Notes.pdf", pdflink:"BT-101 Unit-4.pdf", pyq: "coming soon", ref: "Education Point", reflink: "https://www.youtube.com/playlist?list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN" },
+        { id: 5, data: "Unit 5 Notes.pdf", pdflink:"BT-101 Unit-5.pdf", pyq: "coming soon", ref: "Education Point", reflink: "https://www.youtube.com/playlist?list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN" },
+        { id: 6, data: "Unit 6 Notes.pdf", pdflink:"BT-101 Unit-6.pdf", pyq: "coming soon", ref: "No Refference Avaliable", reflink: "#" },
     ];
 } else if (subject === "BT-102") {
     data = [
@@ -27,12 +31,17 @@ if (subject === "BT-101") {
 } else if (subject === "BT-104") {
     data = [
         { id: 1, data: "Unit 1 Notes.pdf", pdflink:"BT-104 Unit-1.pdf", pyq: "coming soon", ref: "Your collage or notes", reflink: "#" },
-        { id: 2, data: "Unit 2 Notes.pdf", pdflink:"BT-104 Unit-2.pdf", pyq:"coming soon", ref: "Your collage or notes", reflink: "#" }
+        { id: 2, data: "Unit 2 Notes.pdf", pdflink:"BT-104 Unit-2.pdf", pyq:"coming soon", ref: "Your collage or notes", reflink: "#" },
+        { id: 3, data: "Unit 5 Notes.pdf", pdflink:"BT-104 Unit-5.pdf", pyq:"coming soon", ref: "Your collage or notes", reflink: "#" },
     ];
 } else if (subject === "BT-105") {
     data = [
         { id: 1, data: "SCALES", pdflink:"BT-105 SCALES.pdf", pyq: "coming soon", ref: "By Haider Sir", reflink: "https://www.youtube.com/watch?v=940oumABQ8k" },
-        { id: 2, data: "CONIC SECTION", pdflink:"BT-105 CONIC SECTION.pdf", pyq:"coming soon", ref: "By Haider Sir", reflink: "https://www.youtube.com/playlist?list=PLqjKM28q0ywDi49l3_68v_35LK9DZmaX2" }
+        { id: 2, data: "CONIC SECTION", pdflink:"BT-105 CONIC SECTION.pdf", pyq:"coming soon", ref: "By Haider Sir", reflink: "https://www.youtube.com/playlist?list=PLqjKM28q0ywDi49l3_68v_35LK9DZmaX2" },
+        { id: 3, data: "Projection of Point", pdflink:"BT-105 projection of point.pdf", pyq:"coming soon", ref: "No Refference Avaliable", reflink: "#" },
+        { id: 4, data: "Projection of line", pdflink:"BT-105 projection of line.pdf", pyq:"coming soon", ref: "No Refference Avaliable", reflink: "#" },
+        { id: 5, data: "Projection of Plane", pdflink:"BT-105 projection of plane.pdf", pyq:"coming soon", ref: "No Refference Avaliable", reflink: "#" },
+
     ];
 }
 
